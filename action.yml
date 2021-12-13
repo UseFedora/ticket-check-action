@@ -13,6 +13,11 @@ inputs:
     default: '%prefix%%id%: %title%'
     required: true
 
+  ticketRegex:
+    description: 'The regular expression for the ticket in the ticketing system.'
+    default: 'JIRA-\d+'
+    required: false
+
   titleRegex:
     description: 'The regular expression used to search the title for the intended format'
     default: '^(CH)(-?)(?<ticketNumber>\d{3,})'
