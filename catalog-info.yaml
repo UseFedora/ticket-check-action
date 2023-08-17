@@ -6,13 +6,13 @@ metadata:
   description: ''
   tags: []
   annotations:
-    github.com/project-slug: Hotmart-Org/ticket-check-action
+    github.com/project-slug: UseFedora/ticket-check-action
     backstage.io/techdocs-ref: dir:.
   links: []
 spec:
   type: service
   lifecycle: production
-  owner: Platform enablement - EE
+  owner: Platform Enablement
   heimdall:
     reportable: false
     pci: false
